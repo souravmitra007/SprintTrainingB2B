@@ -1,0 +1,22 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<div class="white">
+    Hello World!
+    </div>
+    <ul>
+    <li class="red">This has style Red</li>
+    <li class="yellow">This has style Yellow</li>
+    <li class="grey">This has style grey</li>    
+    </ul>
+ 	
+    
+    <lightning:input name="inputText" aura:id="txtName" label="Enter Text" placeholder="Enter Your Name"></lightning:input>
+    
+    <lightning:button variant="brand" label="Click Me" title="Click Here" onclick="{!c.myAction}" />
+  
+    	
+       <aura:attribute name="cmpMessage" type="String" default="there..." />  
+    <br/>
+    
+    <H1>Hello {!v.cmpMessage}</H1>
+    
+</aura:component>
