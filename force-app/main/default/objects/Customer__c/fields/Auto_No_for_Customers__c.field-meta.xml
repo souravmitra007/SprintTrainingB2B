@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_No_for_Customers__c</fullName>
+    <displayFormat>C-{00}</displayFormat>
+    <externalId>true</externalId>
+    <label>Auto No for Customers</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>
