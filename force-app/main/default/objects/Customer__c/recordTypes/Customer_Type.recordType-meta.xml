@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Type</fullName>
+    <active>true</active>
+    <label>Customer Type</label>
+    <picklistValues>
+        <picklist>Customer_Requirement__c</picklist>
+        <values>
+            <fullName>Need a Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need for Management%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need for Servicing%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need to Buy%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Satisfied with Service%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raise a Complaint%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Items__c</picklist>
+        <values>
+            <fullName>Calculator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eraser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pencil</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Test__c</picklist>
+        <values>
+            <fullName>Test1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

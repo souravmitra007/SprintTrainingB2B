@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Items__c</fullName>
+    <inlineHelpText>Select Item</inlineHelpText>
+    <label>Items</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pen</fullName>
+                <default>false</default>
+                <label>Pen</label>
+            </value>
+            <value>
+                <fullName>Pencil</fullName>
+                <default>false</default>
+                <label>Pencil</label>
+            </value>
+            <value>
+                <fullName>Eraser</fullName>
+                <default>false</default>
+                <label>Eraser</label>
+            </value>
+            <value>
+                <fullName>Calculator</fullName>
+                <default>false</default>
+                <label>Calculator</label>
+            </value>
+            <value>
+                <fullName>Copies</fullName>
+                <default>false</default>
+                <label>Copies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

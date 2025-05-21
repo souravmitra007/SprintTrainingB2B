@@ -1,0 +1,20 @@
+<template>
+  <lightning-card title = 'Filter Query'>
+        <lightning-combobox
+            name="country"
+            label="Country"
+            value={countryValue}
+            placeholder="Select Country"
+            options={countryOptions}
+            onchange={handleCountryChange}>
+        </lightning-combobox>
+        <lightning-combobox
+            name="state"
+            label="State"
+            value={stateValue}
+            placeholder="Select State"
+            options={stateOptions}
+            onchange={handleStateChange}>
+        </lightning-combobox>
+    </lightning-card>
+</template>

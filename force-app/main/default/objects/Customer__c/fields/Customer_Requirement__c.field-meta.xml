@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Requirement__c</fullName>
+    <label>Customer Requirement</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Need for Servicing?</fullName>
+                <default>false</default>
+                <label>Need for Servicing?</label>
+            </value>
+            <value>
+                <fullName>Need to Buy?</fullName>
+                <default>false</default>
+                <label>Need to Buy?</label>
+            </value>
+            <value>
+                <fullName>Need for Management?</fullName>
+                <default>false</default>
+                <label>Need for Management?</label>
+            </value>
+            <value>
+                <fullName>Raise a Complaint?</fullName>
+                <default>false</default>
+                <label>Raise a Complaint?</label>
+            </value>
+            <value>
+                <fullName>Not Satisfied with Service?</fullName>
+                <default>false</default>
+                <label>Not Satisfied with Service?</label>
+            </value>
+            <value>
+                <fullName>Need a Refund</fullName>
+                <default>false</default>
+                <label>Need a Refund</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>
